@@ -1,0 +1,57 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(15, 161, 15);
+    background-image: url("background2.jpeg");
+    background-size: auto;
+}
+
+
+#main{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.scoreboard{
+    font-family: 'supermario';
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.out_ta{
+    font-family: 'supermario';
+    font-size: 20px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.start_button{
+    border: 2px solid black;
+    border-radius: 3px;
+    font-family: 'supermario';
+    background-color: beige;
+
+}
+
+#input{
+    background-color: beige;
+}
+
+#title{
+    font-family: 'supermario';
+
+}
+
+@font-face {
+    font-family: 'supermario';
+    src: url("SuperMario256.ttf") format('woff');
+         
+    font-weight: normal;
+    font-style: normal;
+}
